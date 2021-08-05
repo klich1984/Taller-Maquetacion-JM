@@ -4,3 +4,6 @@ Portfolio made following the steps of Jonathan Mircha's YouTube channel layout w
 
 The layout was made from the Layout of Figma also provided by @JonMircha.
 
+# Project
+
+- [portfolio-CV type landing page](https://klich1984.github.io/Taller-Maquetacion-JM/portafolio-cv)
