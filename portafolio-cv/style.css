@@ -319,6 +319,7 @@ p {
 
 .menu {
   position: fixed;
+  padding-top: 5px;
   left: 0;
   bottom: var(--header-height);
   width: 100%;
@@ -587,6 +588,17 @@ progress::-moz-progress-bar {
   align-items: center;
 }
 
+.logo a > img {
+  position: absolute;
+  bottom: 1px;
+  left: 0;
+  height: 4rem;
+}
+
+.logo a > img:active {
+  transform: scale(0.8);
+}
+
 .skills-icons {
   display: grid;
   grid-template-columns: 40% 40%;
@@ -602,13 +614,6 @@ progress::-moz-progress-bar {
 
 .skills-icons > article > p {
   margin-bottom: 0;
-}
-
-.logo a {
-  color: var(--first-color);
-  font-weight: bold;
-  font-size: 2rem;
-  text-decoration: none;
 }
 
 .portfolio-card {
@@ -654,6 +659,8 @@ progress::-moz-progress-bar {
   background-color: var(--white-color);
   padding: 1rem;
   max-width: 400px;
+  height: 640px;
+  overflow-y: auto;
   display: flex;
   flex-direction: column;
 }
@@ -770,6 +777,10 @@ progress::-moz-progress-bar {
     top: 0;
     padding: 0.5rem;
     height: calc(var(--header-height) - 0.5rem);
+  }
+
+  .logo a > img {
+    bottom: -2px;
   }
 
   .skills-icons {
