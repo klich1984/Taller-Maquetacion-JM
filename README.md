@@ -6,7 +6,15 @@ The layout was made from the Layout of Figma also provided by @JonMircha.
 
 # Project
 
-This project mostly has dummy data provided by the workshop, it is not real data except my name, the section about, my photograph and the contact form, these do have real data
+This project has dummy data provided by the workshop, it is not real data except:
+
+- My name
+- All section about
+- My photograph
+- The contact form
+- And the first two projects of the section my works
+
+these do have real data
 
 View project deploy and __git-pages__
 
