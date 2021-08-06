@@ -586,10 +586,11 @@ progress::-moz-progress-bar {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin-top: -14px;
 }
 
 .logo a > img {
-  position: absolute;
+  position: relative;
   bottom: 1px;
   left: 0;
   height: 4rem;
